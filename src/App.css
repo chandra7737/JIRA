@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  flex-flow: row;
+  gap: 20px;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  flex-basis: 33%;
+}
+
+.tasks-wraper {
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  overflow: auto;
+}
+
+.header {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.task-wrapper {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid grey;
+  padding: 10px;
+  gap: 10px;
+  cursor: all-scroll;
+  background-color: white;
+}
+
+.description {
+  color: grey;
+}
+
+.title {
+  color: blue;
+  font-weight: bold;
+}
+
+.To_Do {
+  background-color: #f0bfbf;
+  border: 1px solid red;
+}
+
+.In_Progress {
+  background-color: #f5f5de;
+  border: 1px solid grey;
+}
+
+.Done {
+  background-color: #d2f3d2;
+  border: 1px solid green;
+}
+
+.drag-active {
+  box-shadow: 0px 0px 10px 2px #4b44f0;
+}
